@@ -274,9 +274,8 @@ def main():
     print_welcome_message()
     user_input_task = input("Auto cleartask ? (y / n) : ")
     user_input_hammer = input("Auto upgrade hammer ( Cracking Power ) ? (y / n) : ")
-    if user_input_hammer == 'y':
         max_hammer_level = int(input("Max Upgrade Until Level? : "))
-    
+    if user_input_hammer == 'y':
     user_input_egg = input("Auto upgrade egg ( Jam per Claim ) ? (y / n) : ")
     if user_input_egg == 'y':
         max_egg_level = int(input("Max Upgrade Until Level? : "))
